@@ -12,16 +12,15 @@
 
 1. Update & Upgrade Termux:
 
-       apt-get update && apt-get upgrade -y
+       apt update && pkg upgrade -y
    
 3. Install wget:
 
-       apt-get install wget proot git curl -y
+       pkg install wget proot git curl -y
    
 4. Download script:
 
        git clone https://github.com/xiv3r/Parrot-Linux-Termux.git
-
 
 7. Go to script folder:
 
@@ -35,8 +34,7 @@
 
         bash install.sh -y
 
-
-#### 12. Run:
+12. Run:
 
         cd Parrot-Linux-Termux
          
