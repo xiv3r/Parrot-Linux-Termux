@@ -2,15 +2,12 @@
 <p align="center"> Parrot Security (ParrotOS, Parrot) is a Free and Open source GNU/Linux distribution based on Debian Stable designed for security experts, developers and privacy aware people. It includes a full portable arsenal for IT security and digital forensics operations.</p>
 
 <br>
-<details><summary>
-Req:
-</summary>
 
+# Requirements
 * [Termux](https://github.com/xiv3r/Kali-Linux-Termux/releases/download/Apps/Termux_v0.119.1.apk)
 
-</details>
 
-## Installations Guide
+## Installations
 
 
 1. Update & Upgrade Termux:
@@ -32,7 +29,7 @@ Req:
   
 10. Give execution permission:
 
-        chmod 777 install.sh
+        chmod +x install.sh
     
 11. Install:
 
